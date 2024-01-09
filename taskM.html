@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="taskM.css">
+    </head>
+    
+    <body>
+        <img src="flower.png" width="40px" height="30px">
+        <h1>Task Manager</h1>
+        <div id="bg">
+            <form id="taskform">
+                <input type="text" id="input" placeholder="enter your task">  
+                <button type="submit" id="button">Add task</button>
+                <button id="createNewList">Add new </button>
+                <input type="date" id="datePicker" required>
+            </form>
+            <div id="elements">
+                <ol id="list"></ol>
+                <ol id="listNew"></ol>
+            </div>
+        </div>
+        <script src="taskM.js"></script>
+    
+    </body>
+</html>
